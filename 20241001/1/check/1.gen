@@ -1,0 +1,6 @@
+import random
+
+
+res = [(random.randint(1, 100), random.randint(1, 100)) for i in range(random.randint(30, 100))]
+print(tuple(res))
+
