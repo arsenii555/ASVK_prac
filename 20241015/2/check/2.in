@@ -1,0 +1,6 @@
+:zeroargs 1+2+3+4
+:onearg x cos(x)
+:twoargs x y cos(x*y)
+:fourargs x y z w x+y+z+w
+fourargs 1 3 5 7
+quit "{}, {}"
