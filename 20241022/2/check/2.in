@@ -1,0 +1,1 @@
+print(*slide(range(1, 3), 5))
