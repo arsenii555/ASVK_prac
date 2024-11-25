@@ -1,0 +1,14 @@
+@objcount
+class C:
+    def __init__(self, val):
+        print("new obj created")
+        self.val = val
+
+    def __del__(self):
+        print("obj deleted")
+
+
+c, d, e = C(1), C(2), C(3)
+print(C.counter)
+c = 100500
+print(C.counter)

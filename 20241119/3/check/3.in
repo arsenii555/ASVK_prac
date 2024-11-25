@@ -1,0 +1,13 @@
+wo = Vowel(y=6, a=1)
+try:
+    print(wo.o)
+except AttributeError:
+    print("Empty slot")
+try:
+    wo.answer = 43
+except AttributeError:
+    print("Can not change answer")
+try:
+    print(wo.b)
+except AttributeError:
+    print("Is not slot")

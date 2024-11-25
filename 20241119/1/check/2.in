@@ -1,0 +1,11 @@
+@objcount
+class C:
+    def __init__(self, val):
+        print("new obj created")
+        self.val = val
+
+
+c, d = C(1), C(2)
+print(C.counter)
+c = 100500
+print(C.counter)

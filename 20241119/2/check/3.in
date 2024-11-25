@@ -1,0 +1,20 @@
+class SimpleClass:
+    def __init__(self, length, real_value):
+        self.length = length
+        self.real = real_value
+
+    def __len__(self):
+        return self.length
+
+    def __str__(self):
+        return f"{self.real}"
+
+
+class C:
+    num = Num()
+
+
+c = C()
+obj = SimpleClass(10, 1)
+c.num = obj
+print(c.num)
